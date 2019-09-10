@@ -22,7 +22,7 @@ here is the script that was used to visualize the rank orders of all the salmoni
 1. get final population.hap.vcf file from stacks
 2. make sure you have all the input files to run grad_project_code_commented.py
    * this script asks if you have everything in the middle so you can start and stop depending on where you are at for intermediate file making with other programs
-   * this file is well commented so read to know what each thing is doing but here is a summary:
+   * here is a summary of what this script does:
    * recodes genotypes
    * filters out unmappable loci
    * builds lepmap file
