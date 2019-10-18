@@ -1,5 +1,5 @@
 # Cisco-Linkage-Map
-repository if various scripts and things used to make the linkage map
+repository of various scripts used to generate the cisco linkage map
 
 # Preparing Input Data for lepmap and rqtl2
 ## haploids
