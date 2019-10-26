@@ -14,7 +14,7 @@ repository of various scripts used to generate the cisco linkage map
 9. can't do rqtl on haploids so run lepmap
 10. LOD increment until it stabilizes and you can use graphing_diff_lod.R to look at it
 11. view your map with Female_linkage_map_graphing_script.R
-12. view your duplicated links with circle_plot.R (this was last minuet and poorly coded, sorry)
+12. view your duplicated links with circle_plot.R
 
 here is the script that was used to visualize the rank orders of all the salmonids with genomic resources with duplicate regions
 
