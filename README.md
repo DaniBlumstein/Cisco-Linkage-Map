@@ -13,16 +13,15 @@ repository of various scripts used to generate the cisco linkage map
 8. find duplicate loci using duplcate_renaming_chrom1.py and duplcate_renaming_chrom2.py (or more depending on how many families you used (I needed to make three of these scripts) and use duplicate_loci_renmaning_female_concenses_LOD_11_CHR_POS.txt as an example set up file 
 9. can't do rqtl on haploids so run lepmap
 10. LOD increment until it stabilizes and you can use graphing_diff_lod.R to look at it
-11. view your map with Female_linkage_map_graphing_script.R
-12. view your duplicated links with circle_plot.R
+11. view map with Female_linkage_map_graphing_script.R
+12. view duplicated links with circle_plot.R
 
-here is the script that was used to visualize the rank orders of all the salmonids with genomic resources with duplicate regions
 
 ## diploids
 1. get final population.hap.vcf file from stacks
 2. make sure you have all the input files to run grad_project_code_commented.py
    * this script asks if you have everything in the middle so you can start and stop depending on where you are at for intermediate file making with other programs
-   * here is a summary of what this script does:
+   * summary of what this script does:
    * recodes genotypes
    * filters out unmappable loci
    * builds lepmap file
